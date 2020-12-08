@@ -26,6 +26,10 @@ li {
     position: relative;
 }
 
+.profile-img {
+    max-width: 90%;
+}
+
 #portfolio {
     background: white;
     padding-top: 50px;
@@ -41,12 +45,21 @@ li {
 
 .img {
     position: relative;
-    max-width: 100%;
-    padding: 10px;
+    max-width: 90%;
 }
 
 #contact {
     padding: 10px;
+}
+
+.footer-nav .name {
+    float: left;
+    vertical-align: top;
+}
+
+.footer-nav .link {
+    float: right;
+    vertical-align: top;
 }
 
 .clearfix {
