@@ -1,0 +1,110 @@
+/* Global Layout Set-up */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', cursive;
+    color: #222;
+    background: #f5f5f5;
+}
+
+
+/* Section Styles */
+
+.nav {
+    list-style-type: none;
+    margin: auto;
+    padding: 25px;
+}
+
+li {
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+#portfolio {
+    background: white;
+    padding-top: 50px;
+}
+
+.tab {
+    position: relative;
+    vertical-align: top;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.img {
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+}
+
+#contact {
+    padding: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* Styles for larger screens */
+
+@media (min-width: 768px) {
+    li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .profile-img {
+        float: right;
+        width: 45%;
+    }
+    .introbio {
+        text-align: left;
+        width: 45%;
+    }
+    .tab {
+        display: inline-block;
+        max-width: 40%;
+    }
+    .img {
+        padding: 10px;
+    }
+    footer {
+        font-size: 1.3em;
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+    /* ---- Float clearfix ---- */
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+    .name {
+        float: left;
+    }
+    .nav {
+        float: right;
+    }
+    li {
+        display: inline-block;
+    }
+    .tab {
+        display: inline-block;
+        max-width: 25%;
+    }
+}
