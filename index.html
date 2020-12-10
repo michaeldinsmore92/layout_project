@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Joe Doe</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -14,10 +15,10 @@
 
         <header class="main-header">
 
-            <section class="main-nav">
+            <section>
                 <div class="container clearfix">
-                    <h1 class="name">Joe Doe</h1>
-                    <ul class="nav">
+                    <h2 class="name">Joe Doe</h2>
+                    <ul class="main-nav">
                         <li><a href="#">HOME</a></li>
                         <li><a href="#portfolio">PORTFOLIO</a></li>
                         <li><a href="#contact">CONTACT</a></li>
@@ -37,7 +38,7 @@
             <section id="portfolio">
 
                 <div>
-                    <h3>PORTFOLIO</h3>
+                    <h2>PORTFOLIO</h2>
 
                     <div class="tab">
                         <img class="img" src="img/portfolio-1.png" alt="Portfolio 1">
@@ -79,10 +80,10 @@
 
             </section>
 
-            <section id="contact">
+            <section class="clearfix" id="contact">
 
                 <div>
-                    <h3>CONTACT</h3>
+                    <h2>CONTACT</h2>
                     <p class="contact">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
                 </div>
                 <p>Phone: <strong>+1 (111) 555-1234</strong></p>
@@ -94,14 +95,14 @@
 
         <hr>
 
-        <footer>
-
-            <section class="footer-nav">
-                <div class="container clearfix">
-                    <h1 class="name">Joe Doe</h1>
-                    <h2 class="link"><a href="#">BACK TO TOP</a></h2>
-                </div>
-            </section>
+        <footer class="container clearfix">
+            <h3>Joe Doe</h3>
+            <ul class="footer-nav">
+                <li class="top"><a href="#top">BACK TO TOP</a></li>
+                <li class="full"><a href="#top">HOME</a></li>
+                <li class="full"><a href="#portfolio">PORTFOLIO</a></li>
+                <li class="full"><a href="#contact">CONTACT</a></li>
+            </ul>
         </footer>
 
     </div>
